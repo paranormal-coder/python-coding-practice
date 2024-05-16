@@ -157,3 +157,65 @@ for i in range(0,5):
     for p in range(0,5-i-1):
         print(p+1,end= " ")
     print()
+
+
+# pattern 11 to 20
+print("\npattern 11")
+"""
+      1
+     2 2
+    3 3 3
+   4 4 4 4
+  5 5 5 5 5 
+   4 4 4 4
+    3 3 3
+     2 2
+      1 
+"""
+for i in range(1,6):
+    print(" "*(5-i) + f"{i} "*i,end=" ")
+    print("\n")
+for j in range(4,0, -1):
+    print(" "*(5-j) + f"{j} "*j,end=" ")
+    print("\n")
+
+print("\npattern 12")
+"""
+1 1 1 1 1 
+ 2 2 2 2
+  3 3 3 
+   4 4
+    5
+   4 4 
+  3 3 3 
+ 2 2 2 2
+1 1 1 1 1 
+   """
+for i in range(1,6):
+    print(" "*(i) + f"{i} "*(6-i),end=" ")
+    print("\n")
+for j in range(4,0, -1):
+    print(" "*(j) + f"{j} "*(6-j),end=" ")
+    print("\n")
+
+print("\npattern 13")
+"""
+          1
+        1 2 1
+      1 2 3 2 1
+    1 2 3 4 3 2 1
+  1 2 3 4 5 4 3 2 1"""
+
+for i in range(1,6):
+    print(" "*2*(6-i),end= " ")
+    for p in range (1,i+1):
+        print(p, end =" ")
+    for q in range(i-1, 0, -1):
+        print(q, end = " ")
+    print(" ")
+
+print("\npattern 14")
+"""" """
+
+print("\npattern 15")
+""" """
